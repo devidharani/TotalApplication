@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Amount__c</fullName>
+    <externalId>false</externalId>
+    <label>Amount</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Type_of_Fee__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1500</fullName>
+                <default>false</default>
+                <label>1500</label>
+            </value>
+            <value>
+                <fullName>80000</fullName>
+                <default>false</default>
+                <label>80000</label>
+            </value>
+            <value>
+                <fullName>4500</fullName>
+                <default>false</default>
+                <label>4500</label>
+            </value>
+            <value>
+                <fullName>600</fullName>
+                <default>false</default>
+                <label>600</label>
+            </value>
+            <value>
+                <fullName>700</fullName>
+                <default>false</default>
+                <label>700</label>
+            </value>
+            <value>
+                <fullName>10</fullName>
+                <default>false</default>
+                <label>10</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>SEM Fee</controllingFieldValue>
+            <controllingFieldValue>Revolution Fee</controllingFieldValue>
+            <valueName>1500</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tuition Fee</controllingFieldValue>
+            <valueName>80000</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Placement Fee</controllingFieldValue>
+            <valueName>4500</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>supplementary Fee</controllingFieldValue>
+            <valueName>600</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Transcript Fee</controllingFieldValue>
+            <valueName>700</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>ID Fine</controllingFieldValue>
+            <valueName>10</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

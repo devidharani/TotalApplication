@@ -1,0 +1,33 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId" access="global" >
+	<!-- Success variant: Identifies a successful action -->    
+    
+        
+        <lightning:layout horizontalAlign="space" >
+            
+            <lightning:layoutItem padding="around-small">
+                <lightning:button variant="brand" label="Student Bio Data" title="Student Bio Data" onclick="{! c.handleClick }"/>
+            </lightning:layoutItem>
+            <lightning:layoutItem padding="around-small">
+                <lightning:button variant="brand" label="Marks" title="Marks" onclick="{! c.handleClick1 }"/>
+                
+            </lightning:layoutItem>
+            <lightning:layoutItem padding="around-small">
+                <lightning:button variant="brand" label="Exam Section" title="Exam Section" onclick="{! c.handleClick2 }"/>
+                
+            </lightning:layoutItem>
+            <lightning:layoutItem padding="around-small">
+                <lightning:button variant="brand" label="Books" title="Exam Section" onclick="{! c.handleClick3 }"/>
+                
+            </lightning:layoutItem>
+             <lightning:layoutItem padding="around-small">
+                <lightning:button variant="brand" label="Books Issue" title="Exam Section" onclick="{! c.handleClick4 }"/>
+                
+            </lightning:layoutItem>
+
+   
+            
+
+          </lightning:layout> 
+        
+   
+</aura:component>

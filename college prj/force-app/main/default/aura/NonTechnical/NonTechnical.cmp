@@ -1,0 +1,21 @@
+<aura:component implements="force:appHostable,flexipage:availableForAllPageTypes,flexipage:availableForRecordHome,force:hasRecordId" access="global" >
+	<!-- Success variant: Identifies a successful action -->    
+    
+        
+       
+                <lightning:button variant="brand" label="Student" title="Staff Bio Data" onclick="{! c.handleClick }"/>
+            
+            
+                <lightning:button variant="brand" label="Staff" title="Marks" onclick="{! c.handleClick1 }"/>
+                
+            
+            
+            
+           
+   
+            
+
+         
+        
+   
+</aura:component>

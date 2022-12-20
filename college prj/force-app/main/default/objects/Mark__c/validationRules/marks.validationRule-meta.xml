@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>marks</fullName>
+    <active>true</active>
+    <errorConditionFormula>sub_1__c &gt;100 || sub2__c&gt;100 ||sub3__c&gt;100 ||sub4__c&gt;100 ||sub5__c&gt;100</errorConditionFormula>
+    <errorMessage>Mark Should be Less than 100</errorMessage>
+</ValidationRule>

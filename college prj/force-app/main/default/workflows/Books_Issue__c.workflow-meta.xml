@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workflow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <alerts>
+        <fullName>mail_to_staff</fullName>
+        <description>mail to staff</description>
+        <protected>false</protected>
+        <recipients>
+            <type>creator</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/staff_mail</template>
+    </alerts>
+    <alerts>
+        <fullName>student_mail</fullName>
+        <description>student mail</description>
+        <protected>false</protected>
+        <recipients>
+            <type>creator</type>
+        </recipients>
+        <senderType>CurrentUser</senderType>
+        <template>unfiled$public/Student_email</template>
+    </alerts>
+    <rules>
+        <fullName>email to staff</fullName>
+        <actions>
+            <name>mail_to_staff</name>
+            <type>Alert</type>
+        </actions>
+        <active>true</active>
+        <formula>TODAY() = Due_Date__c -2</formula>
+        <triggerType>onCreateOrTriggeringUpdate</triggerType>
+    </rules>
+</Workflow>

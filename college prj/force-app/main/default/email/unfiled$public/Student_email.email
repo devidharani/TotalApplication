@@ -1,0 +1,7 @@
+Dear {!Student__c.Name},
+  
+       A quick reminder that the book {!Book__c.Name}  which is issued on {!Library__c.Date_Borrowed__c} is going to due for next two days from now, that is , on {!Library__c.Date_Due__c}. Kindly Request you to submit the book as soon as possible.
+
+Regards,
+
+Librarian
